@@ -1,7 +1,7 @@
 import React from "react";
-import NewBlogCard2 from "./NewBlogCard2";
-import NewBlogCard1 from "./NewBlogCard1";
 import NewBlogCard from "./NewBlogCard";
+import NewBlogCardOne from "./NewBlogCardOne";
+import NewBlogCardTwo from "./NewBlogCardTwo";
 const News = () => {
   return (
     <section className="w3l-news" id="news">
@@ -20,7 +20,7 @@ const News = () => {
           <div className="grid-view">
             <div className="row">
               <div className="col-lg-4 col-md-6 mt-md-4 mt-5">
-                <NewBlogCard2
+                <NewBlogCardTwo
                   img="/styles/assets/images/blog/blog3.webp"
                   catagory="Dexterous,"
                   subcatagory="Marketing"
@@ -42,7 +42,7 @@ const News = () => {
               </div>
 
               <div className="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-md-4 mt-5">
-                <NewBlogCard1
+                <NewBlogCardOne
                   img="/styles/assets/images/blog/blog2.webp"
                   catagory="Dexterous,"
                   subcatagory="Marketing"

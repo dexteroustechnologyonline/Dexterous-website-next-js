@@ -1,11 +1,12 @@
 import React from "react";
 import Breadcrum from "../../components/breadCrum";
-import NewBlogCard2 from "../../components/Home/NewBlogCard2";
 import NewBlogCard from "../../components/Home/NewBlogCard";
-import NewBlogCard1 from "../../components/Home/NewBlogCard1";
-import NewBlogCard3 from "../../components/Blog/NewBlogCard3";
-import NewBlogCard4 from "../../components/Blog/NewBlogCard4";
-import NewBlogCard5 from "../../components/Blog/NewBlogCard5";
+
+import NewBlogCardOne from "../../components/Home/NewBlogCardOne";
+import NewBlogCardTwo from "../../components/Home/NewBlogCardTwo";
+import NewBlogCardFive from "../../components/Blog/NewBlogCardFive";
+import NewBlogCardFour from "../../components/Blog/NewBlogCardFour";
+import NewBlogCardThree from "../../components/Blog/NewBlogCardThree";
 const Blog = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Blog = () => {
             <div className="grid-view">
               <div className="row">
                 <div className="col-lg-4 col-md-6 mt-md-4 mt-5">
-                  <NewBlogCard2
+                  <NewBlogCardTwo
                     img="/styles/assets/images/blog/blog3.webp"
                     catagory="Dexterous,"
                     subcatagory="Marketing"
@@ -41,7 +42,7 @@ const Blog = () => {
                 </div>
 
                 <div className="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-md-4 mt-5">
-                  <NewBlogCard1
+                  <NewBlogCardOne
                     img="/styles/assets/images/blog/blog2.webp"
                     catagory="Dexterous,"
                     subcatagory="Marketing"
@@ -51,7 +52,7 @@ const Blog = () => {
                   />
                 </div>
                 <div className="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-md-4 mt-5">
-                  <NewBlogCard3
+                  <NewBlogCardThree
                     img="/styles/assets/images/blog/React Native.webp"
                     catagory="Dexterous,"
                     subcatagory="Technology"
@@ -61,7 +62,7 @@ const Blog = () => {
                   />
                 </div>
                 <div className="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-md-4 mt-5">
-                  <NewBlogCard4
+                  <NewBlogCardFour
                     img="/styles/assets/images/blog/Node.js.webp"
                     catagory="Dexterous,"
                     subcatagory="Technology"
@@ -71,7 +72,7 @@ const Blog = () => {
                   />
                 </div>
                 <div className="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-md-4 mt-5">
-                  <NewBlogCard5
+                  <NewBlogCardFive
                     img="/styles/assets/images/blog/React.webp"
                     catagory="Dexterous,"
                     subcatagory="technology"

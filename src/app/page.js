@@ -10,7 +10,7 @@ import HomeSliderPortfolioApp from "../components/Home/HomeSliderPortfolioApp";
 import HomeSlidePortfolio from "../components/Home/HomeSlidePortfolio";
 import HomeSlidePortfolioEducational from "@/components/Home/HomeSlidePortfolioEducational";
 import Testimonal from "../components/Home/Testimonal";
-import Services2 from "../components/Home/Services2";
+import ServicesTwo from "../components/Home/ServicesTwo";
 import Team from "../components/Home/Team";
 import News from "../components/Home/News";
 
@@ -26,7 +26,7 @@ const page = () => {
       <HomeSlidePortfolio />
       <HomeSlidePortfolioEducational />
       <Testimonal />
-      <Services2 />
+      <ServicesTwo />
       <Team />
       <News />
     </>
