@@ -1,0 +1,347 @@
+.fix_buttons {
+  position: fixed;
+  z-index: 10
+}
+
+.menu {
+  z-index: 999;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  left: 10px;
+  bottom: 120px;
+}
+
+.menu .share i.fas {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #ff6550;
+  border-radius: 50%;
+}
+
+.menu .share i.fab {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.menu .share:hover.top .submenu li:nth-child(1) {
+  opacity: 1;
+  top: -51px;
+  transition-delay: 0.08s;
+  transform: rotateY(0deg);
+  border-bottom: 1px dashed transparent;
+}
+
+.menu .share:hover.top .submenu li:nth-child(2) {
+  opacity: 1;
+  top: -102px;
+  transition-delay: 0.16s;
+  transform: rotateY(0deg);
+  border-bottom: 1px dashed transparent;
+}
+
+.menu .share:hover.top .submenu li:nth-child(3) {
+  opacity: 1;
+  top: -153px;
+  transition-delay: 0.24s;
+  transform: rotateY(0deg);
+  border-bottom: 1px dashed transparent;
+}
+
+.menu .share:hover.top .submenu li:nth-child(4) {
+  opacity: 1;
+  top: -204px;
+  transition-delay: 0.32s;
+  transform: rotateY(0deg);
+  border-bottom: 1px dashed transparent;
+}
+
+.menu .share:hover.top .submenu li:nth-child(5) {
+  opacity: 1;
+  top: -255px;
+  transition-delay: 0.4s;
+  transform: rotateY(0deg);
+  border-bottom: 1px dashed transparent;
+}
+
+.menu .submenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu .submenu li {
+  transition: all ease-in-out 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.menu .submenu li a {
+  color: #212121;
+}
+
+.menu .submenu li a:hover i.fab {
+  color: #fff;
+}
+
+.menu .submenu li .facebook i.fab {
+  background-color: #4866ab;
+  color: #fff
+}
+
+.menu .submenu li a:hover.facebook i.fab {
+  background-color: #4866ab;
+}
+
+.menu .submenu li .twitter i.fab {
+  background-color: #2aaddb;
+  color: #fff
+}
+
+.menu .submenu li a:hover.twitter i.fab {
+  background-color: #2aaddb;
+}
+
+.menu .submenu li .linkedin i.fab {
+  background-color: #1275b1;
+  color: #fff
+}
+
+.menu .submenu li a:hover.linkedin i.fab {
+  background-color: #1275b1;
+}
+
+.menu .submenu li .pinterest i.fab {
+  background-color: #c51f25;
+  color: #fff
+}
+
+.menu .submenu li a:hover.pinterest i.fab {
+  background-color: #c51f25;
+}
+
+.menu .submenu li a:hover.googlePlus i.fab {
+  background-color: #dd4b39;
+}
+
+.menu .submenu li .instagram i.fab {
+  background-color: #db0c7e;
+  color: #fff
+}
+
+.menu .submenu li a:hover.instagram i.fab {
+  background-color: #db0c7e;
+}
+
+.menu .submenu li:nth-child(1) {
+  transform: rotateX(45deg);
+}
+
+.menu .submenu li:nth-child(2) {
+  transform: rotateX(90deg);
+}
+
+.menu .submenu li:nth-child(3) {
+  transform: rotateX(135deg);
+}
+
+.menu .submenu li:nth-child(4) {
+  transform: rotateX(180deg);
+}
+
+.menu.topLeft {
+  top: 10px;
+  left: 10px;
+}
+
+.menu.topRight {
+  top: 10px;
+  right: 10px;
+}
+
+.menu.bottomLeft {
+  bottom: 10px;
+  left: 10px;
+}
+
+.menu.bottomRight {
+  bottom: 10px;
+  right: 10px;
+}
+
+
+
+.share-buttons {
+  position: fixed;
+  width: 200px;
+  height: 80px;
+  padding-left: 0px;
+  bottom: 30px;
+  left: 10px;
+}
+
+
+
+.share-buttons .whatsapp-button {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.share-buttons .whatsapp-button:after {
+  clear: both;
+  display: table;
+}
+
+.whatsapp-button {
+  display: block;
+  position: relative;
+  height: 45px;
+}
+
+.whatsapp-button:hover {
+  cursor: pointer;
+}
+
+.whatsapp-button:hover .whatsapp-button-primary {
+  box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button:hover .whatsapp-button-secondary-content {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.whatsapp-button-primary {
+  position: absolute;
+  background: #01c553;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.whatsapp-button-icon {
+  display: block;
+  color: #fff;
+  position: absolute;
+  width: 45px;
+  line-height: 45px;
+  font-size: 26px !important;
+  margin-top: 1px;
+}
+
+.whatsapp-button-secondary {
+  overflow: hidden;
+  margin-left: 23px;
+  height: 45px;
+}
+
+.whatsapp-button-secondary-content {
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #01c553;
+  display: block;
+  height: 45px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 18px;
+  line-height: 45px;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  transition: -webkit-transform 175ms ease;
+  transition: transform 175ms ease;
+  transition: transform 175ms ease, -webkit-transform 175ms ease;
+}
+
+.share-buttons .enquiry-button {
+  float: left;
+  margin-bottom: 0px;
+}
+
+.share-buttons .enquiry-button:after {
+  clear: both;
+  display: table;
+}
+
+.enquiry-button {
+  display: block;
+  position: relative;
+  height: 45px;
+}
+
+.enquiry-button:hover {
+  cursor: pointer;
+}
+
+.enquiry-button:hover .enquiry-button-primary {
+  box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-button:hover .enquiry-button-secondary-content {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.enquiry-button-primary {
+  position: absolute;
+  background: #0080f0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.enquiry-button-icon {
+  display: block;
+  color: #fff;
+  position: absolute;
+  width: 45px;
+  line-height: 45px;
+  font-size: 26px !important;
+  margin-top: 1px;
+}
+
+.enquiry-button-secondary {
+  overflow: hidden;
+  margin-left: 23px;
+  height: 45px;
+}
+
+.enquiry-button-secondary-content {
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #0080f0;
+  display: block;
+  height: 45px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 18px;
+  line-height: 45px;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  transition: -webkit-transform 175ms ease;
+  transition: transform 175ms ease;
+  transition: transform 175ms ease, -webkit-transform 175ms ease;
+}

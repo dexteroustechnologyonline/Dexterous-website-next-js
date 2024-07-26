@@ -1,0 +1,321 @@
+/* @import "~swiper/swiper-bundle.min.css"; */
+
+.mainboxcontainer {
+  display: none;
+  width: 250px;
+  height: 165px;
+  background-color: whitesmoke;
+  /* position: relative; */
+  border-radius: 2px;
+}
+.mainboxcontainer .subnavigation {
+  color: black !important;
+  list-style: none !important;
+}
+.mainboxcontainer ul {
+  list-style: none !important;
+  color: black !important;
+}
+.profiledropdown {
+  position: relative;
+}
+.profiledropdown:hover .mainboxcontainer {
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+}
+.subnavigation {
+  font-size: 16px;
+  color: "black";
+  list-style: none;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  align-items: center;
+}
+.mainboxcontainer li {
+  padding-left: 10px;
+  list-style: none !important;
+  padding: 15px 15px 15px 20px;
+  border-bottom: 1px solid #cccccc;
+}
+.list:hover {
+  background-color: #e6e6e6;
+}
+.list:hover .subnavigation {
+  color: #dc3545 !important;
+}
+/* .mainboxcontainer .borderbottom{
+     border-bottom: none;
+} */
+/* heading  */
+.headings {
+  font-size: 30px;
+  border-bottom: 3px solid black;
+}
+.headingmain {
+  font-size: 40px;
+  text-align: center;
+}
+.arrowdown {
+  margin-left: 5px;
+}
+.arrowup {
+  margin-left: 5px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #fff;
+  position: absolute;
+  width: 170% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 18px !important;
+  font-weight: bold;
+  background-color: #ffefec54;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 999px) {
+  .changemarginSwiper {
+    margin: 0 150px !important;
+  }
+}
+@media screen and (min-width: 799) and (max-width: 1049) {
+  .SwipeCard23 {
+    width: 249.99px !important;
+    height: 315.96px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    /* background-color: #333; */
+    color: white;
+    padding: 10px;
+  }
+
+  .navbar .navbar-brand img {
+    height: 45px;
+  }
+
+  .navbar .navbar-brand.logotext {
+    font-size: 20px;
+  }
+
+  .navbar .navbar-toggler {
+    border: none;
+  }
+
+  .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar .nav-item {
+    margin-left: 20px;
+  }
+
+  .navbar .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Styles for dropdown menus */
+  .navbar .nav-item.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: white;
+  }
+
+  .navbar .nav-item.dropdown .dropdown-menu .dropdown-item {
+    padding: 10px;
+  }
+
+  .navbar .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #444;
+  }
+
+  .navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .tp-header-contact-inner {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .mobilecall {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .mobilecall img {
+    height: 45px;
+    width: 45px;
+    background-color: #2e5deb;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .phoneresponsive {
+    display: flex;
+  }
+
+  .phoneresponsive .slash {
+    margin: 0 5px;
+  }
+
+  /* Media queries for responsive design */
+  @media (max-width: 1024px) {
+    .navbar .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+
+    .tp-header-contact-inner {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+
+    .mobilecall {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .phoneresponsive {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .phoneresponsive .slash {
+      display: none;
+    }
+  }
+}
+
+/* Mobile version  */
+@media only screen and (max-width: 992px) and (min-width: 360px) {
+  .tp-header-contact-inner {
+    justify-content: center;
+  }
+  .phoneresponsive {
+    display: grid !important;
+  }
+  .imagecalling,
+  .slash,
+  .bi-cart,
+  .bi-globe,
+  .bi-phone {
+    display: none;
+  }
+  .calling {
+    font-weight: bold !important;
+    text-align: center;
+  }
+  .responsivenumber1 {
+    margin-top: 10px;
+  }
+  .responsivenumber2 {
+    margin-top: 10px;
+  }
+
+  .profiledropdown {
+    margin-top: 8px;
+  }
+  .mainboxcontainer {
+    display: none;
+    width: 135px !important;
+    height: 105px !important;
+    background-color: transparent !important;
+  }
+  .profiledropdown:hover .mainboxcontainer {
+    display: block;
+    position: static !important;
+    background-color: none !important;
+  }
+  .profiledropdown:hover .mainboxcontainer {
+    top: 35px;
+    left: 15px;
+  }
+  .mainboxcontainer li {
+    padding-left: 10px;
+    list-style: none !important;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 1px solid #cccccc;
+  }
+  .mainboxcontainer .subnavigation {
+    color: white !important;
+  }
+  /*  . .mainboxcontainer .subnavigation {
+    color: #fff !important;
+    list-style: none !important;
+}  */
+}
+
+.phoneresponsive {
+  display: flex;
+}
+.navbarfont {
+  font-size: 19px !important;
+}
+
+@media only screen and (max-width: 1310px) and (min-width: 1190px) {
+  .navbar-collapse {
+    margin-left: 50px;
+  }
+  .navbarfont,
+  .responsivenumber1,
+  .responsivenumber1 {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 1050px) {
+  .navbar-collapse {
+    margin-left: 20px;
+  }
+  .navbarfont {
+    font-size: 16px !important;
+  }
+  .phoneresponsive {
+    display: grid;
+  }
+  .slash {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1050px) and (min-width: 992px) {
+  .navbar-collapse {
+    margin-left: 20px;
+  }
+  .navbarfont {
+    font-size: 16px !important;
+  }
+  .phoneresponsive {
+    display: grid;
+  }
+  .slash {
+    display: none;
+  }
+  .imagecalling {
+    display: none;
+  }
+}
