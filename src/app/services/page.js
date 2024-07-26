@@ -1,17 +1,17 @@
+import Breadcrum from "../../components/breadCrum";
 
-import Breadcrum from '../../components/breadCrum';
-import Services1 from "../../components/Services/Services1"
-import Feature2 from "../../components/Services/Feature2"
-import Feature1 from "../../components/Services/Feature1"
+import ServicesOne from "../../components/Services/ServicesOne";
+import FeatureTwo from "../../components/Services/FeatureTwo";
+import FeatureOne from "../../components/Services/FeatureOne";
 const Service = () => {
   return (
     <>
-      <Breadcrum title="Services" cls="service" id="services"/>
-      <Services1/>
-      <Feature2/>
-      <Feature1/>
+      <Breadcrum title="Services" cls="service" id="services" />
+      <ServicesOne />
+      <FeatureTwo />
+      <FeatureOne />
     </>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;

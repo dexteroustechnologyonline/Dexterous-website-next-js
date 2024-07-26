@@ -22,7 +22,7 @@ const NewBlogCardFour = (props) => {
             <a to="#">{`${props.title}`}</a>
           </h4>
           <p className="blog-text">{`${props.description}`}</p>
-          <Link href="blog/blogdetalis4" className="btn btn-news">
+          <Link href="blog/blogdetalisFour" className="btn btn-news">
             Read More <span className="fa fa-angle-right pl-1" />{" "}
           </Link>
         </div>

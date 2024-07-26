@@ -13,7 +13,7 @@ import Footer from "@/components/footer";
 import Talk from "@/components/Tawk/Talk";
 export const metadata = {
   title: {
-    default: "Dexterous Technology | Mobile app development company",
+    default: "Dexterous Technology - Best Mobile app development company",
     template: "%s | Dexterous Technology",
   },
   // icons: [{ rel: 'icon', url: logo.src }],

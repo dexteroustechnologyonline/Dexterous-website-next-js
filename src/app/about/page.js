@@ -1,4 +1,4 @@
-import Breadcrum from "../../components/breadCrum";
+// import Breadcrum from "../../components/breadCrum";
 import AboutFeatures from "../../components/About/AboutFeatures";
 import AboutContent from "../../components/About/AboutContent";
 import Specification from "../../components/About/Specification";

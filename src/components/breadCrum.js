@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const breadCrum = (props) => {
+const BreadCrum = (props) => {
   return (
     <section className={`w3l-${props.cls}-breadcrum`} id={`${props.id}`}>
       <div className="breadcrum-bg">
@@ -16,4 +16,4 @@ const breadCrum = (props) => {
   );
 };
 
-export default breadCrum;
+export default BreadCrum;
