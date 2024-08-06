@@ -3,6 +3,14 @@ import React from "react";
 import Breadcrum from "../../components/breadCrum";
 import Testimonal from "@/components/Home/Testimonal";
 import Link from "next/link";
+export const metadata = {
+  title:
+    "Best Web Development in Hyderabad | Web Development Company in Hyderabad | Web And Mobile App Development Company Hyderabad - Dexterous Technology",
+  description:
+    "Looking for the best web development in Hyderabad? Look no further than Dexterous Technology, the premier web and mobile app development company in Hyderabad.",
+  keywords:
+    "Best Web Development in Hyderabad, Web Development Company in Hyderabad, Web And Mobile App Development Company Hyderabad",
+};
 
 const WebDevelopment = (props) => {
   return (

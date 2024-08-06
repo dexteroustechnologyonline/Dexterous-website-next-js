@@ -36,7 +36,11 @@ const HomeSlider = () => {
           slidesPerView: 1,
           spaceBetween: 4,
         },
-        1080: {
+        1000: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        1100: {
           slidesPerView: 3,
           spaceBetween: 4,
         },

@@ -6,47 +6,47 @@ import Link from "next/link";
 
 export const metadata = {
   title:
-    "UI UX Design Company in Hyderabad | UI UX Design in Hyderabad- Dexterous Technology",
+    "Web Design Company in Hyderabad | Web Designing Company in Hyderabad | Best Web Designing Company in Hyderabad | Responsive Website Designing Services in Hyderabad - Dexterous Technology",
   description:
-    "Discover the best UI/UX design services in Hyderabad with Dexterous Technology. We specialize in creating intuitive and visually appealing designs for your business.",
+    "Dexterous Technology is the premier web design company in Hyderabad, providing exceptional web designing services. Choose us for top-quality web solutions.",
   keywords:
-    "UI UX Design Company in Hyderabad, UI UX Design in Hyderabads",
+    "Best Web Designing Company in Hyderabad, Web Designing Company in Hyderabad, Web Design Company in Hyderabad, Responsive Website Designing Services in Hyderabad, Website Redesigning Services in Hyderabad",
 };
 
-const UIUXDesign = () => {
+const WebDesign = () => {
   return (
     <>
       {/* <MetaData title="Dexterous | Mobile app developmrnt company" /> */}
-      <Breadcrum title="UI UX Design" cls="about" id="aboutPage" />
+      <Breadcrum title="Web Design" cls="about" id="aboutPage" />
       <section className="w3l-content-with-photo-4" id="about">
         <div id="content-with-photo4-block" className="py-5">
           <div className="container py-md-3">
             <div className="cwp4-two row">
               <div className="cwp4-image col-lg-6">
                 <img
-                  src="/styles/assets/images/UI UX Design.webp"
+                  src="/styles/assets/images/WebDesign.webp"
                   className="img-fluid"
                   alt
                 />
               </div>
               <div className="cwp4-text col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                 <h3 style={{ fontSize: "25px", lineHeight: "34px" }}>
-                  Craft a website design that smoothens user journey
+                  Craft a Web Design that smoothens user journey
                 </h3>
                 <p>
                   <b>
-                    Dexterous Technology offers an impressive UI/UX design
+                    Dexterous Technology offers an impressive Web Design
                     services to deliver intuitive designs and outstanding user
                     experience.
                   </b>
                 </p>
                 <p style={{ textAlign: "justify" }}>
-                  A premium UI/UX design firm, Dexterous Technologies aims to
+                  A premium Web Design firm, Dexterous Technologies aims to
                   produce website designs with unconventional user experiences.
                   We are one of the top web development firms that creates
                   interesting goods to meet client demands fast. Our talented
-                  group of UI/UX designers prioritizes user needs and provides
-                  enhanced usability and optimal UX design techniques. We put
+                  group of Web Design prioritizes user needs and provides
+                  enhanced usability and optimal Web Design techniques. We put
                   into practice design guidelines that strengthen brand recall
                   and business identification.{" "}
                 </p>
@@ -62,7 +62,7 @@ const UIUXDesign = () => {
             <div className="heading text-center mx-auto">
               <h3 className="head text-white">
                 {" "}
-                Avail intuitive UI/UX designs and transform your digital user
+                Avail intuitive Web Design and transform your digital user
                 experience
               </h3>
             </div>
@@ -103,7 +103,7 @@ const UIUXDesign = () => {
                     </h6>
                     <p style={{ textAlign: "justify" }}>
                       Remarkable responsive web designs that look good on all
-                      screen sizes are made by our UX design specialists.
+                      screen sizes are made by our Web Design specialists.
                       Because of our expertise in creating unique websites with
                       user-centric design and content, we can guarantee not only
                       an excellent user experience but also faster usability.
@@ -121,7 +121,7 @@ const UIUXDesign = () => {
                       </Link>
                     </h6>
                     <p style={{ textAlign: "justify" }}>
-                      With the help of our UI/UX designers, revamp your website
+                      With the help of our Web Design, revamp your website
                       and turn your demands into measurable outcomes that result
                       in increased productivity and speedier turnaround times.
                       Our extensive usage of wireframes guarantees that the
@@ -223,7 +223,7 @@ const UIUXDesign = () => {
               <p className="my-3 head">
                 {" "}
                 <b style={{ color: "white" }}>
-                  Leverage best UI/UX design services from the top website
+                  Leverage best Web Design services from the top website
                   builders
                 </b>
               </p>
@@ -319,4 +319,4 @@ const UIUXDesign = () => {
   );
 };
 
-export default UIUXDesign;
+export default WebDesign;

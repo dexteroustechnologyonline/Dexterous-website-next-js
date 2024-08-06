@@ -12,12 +12,15 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Talk from "@/components/Tawk/Talk";
 export const metadata = {
-  title: {
-    default: "Dexterous Technology - Best Mobile app development company",
-    template: "%s | Dexterous Technology",
-  },
-  // icons: [{ rel: 'icon', url: logo.src }],
+  title:
+    "Best Mobile App Development Hyderabad | Best Mobile App Development Company Hyderabad |  Mobile App Development Company in Hyderabad - Dexterous Technologys",
+  description:
+    "Dexterous Technology is the Best mobile app development company, web designing company, serving customers in cms, best E-commerce mobile App development, Android App Development, IOS App Development,  website design, Grocery mobile App.",
+  keywords:
+    "Best Mobile App Development Hyderabad, Best Mobile App Development Company Hyderabad,  Mobile App Development Company in Hyderabad, Mobile App Developers in Hyderabad",
 };
+
+
 
 export default function RootLayout({ children }) {
   return (

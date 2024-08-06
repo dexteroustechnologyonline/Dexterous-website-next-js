@@ -3,6 +3,14 @@ import Breadcrum from "@/components/breadCrum";
 
 // import MetaData from "../../layout/MetaData";
 import BlogCard from "../../components/Ecommerce/BlogCard";
+export const metadata = {
+  title:
+    "Grocery Mobile App Development in Hyderabad | Grocery App Development Company in Hyderabad - Dexterous Technology",
+  description:
+    "Dexterous Technology offers expert grocery app development services in Hyderabad, catering to the specific needs of grocery businesses looking to go mobile.",
+  keywords:
+    "Grocery Mobile App Development in Hyderabad, Grocery App Development Company in Hyderabad",
+};
 const Ecommerce = () => {
   return (
     <>

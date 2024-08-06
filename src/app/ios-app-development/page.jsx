@@ -1,54 +1,74 @@
 import React from "react";
-// import MetaData from '../../layout/MetaData'
+import Breadcrum from "../../components/breadCrum";
 import Testimonal from "@/components/Home/Testimonal";
-import Breadcrum from "@/components/breadCrum";
 import Link from "next/link";
 
 export const metadata = {
   title:
-    "UI UX Design Company in Hyderabad | UI UX Design in Hyderabad- Dexterous Technology",
+    "IOS App Development in Hyderabad | IOS App Development Company in Hyderabad - Dexterous Technology",
   description:
-    "Discover the best UI/UX design services in Hyderabad with Dexterous Technology. We specialize in creating intuitive and visually appealing designs for your business.",
+    "Looking for top-notch IOS app development services in Hyderabad? Dexterous Technology is your go-to company for cutting-edge solutions tailored to your requirements.",
   keywords:
-    "UI UX Design Company in Hyderabad, UI UX Design in Hyderabads",
+    "IOS App Development in Hyderabad, IOS App Development Company in Hyderabad",
 };
 
-const UIUXDesign = () => {
+const iOSAppDevelopment = (props) => {
   return (
     <>
       {/* <MetaData title="Dexterous | Mobile app developmrnt company" /> */}
-      <Breadcrum title="UI UX Design" cls="about" id="aboutPage" />
+      <Breadcrum title="iOS App Development" cls="about" id="aboutPage" />
       <section className="w3l-content-with-photo-4" id="about">
         <div id="content-with-photo4-block" className="py-5">
           <div className="container py-md-3">
             <div className="cwp4-two row">
               <div className="cwp4-image col-lg-6">
                 <img
-                  src="/styles/assets/images/UI UX Design.webp"
+                  src="/styles/assets/images/iOSAppDevelopment.webp"
                   className="img-fluid"
                   alt
                 />
               </div>
               <div className="cwp4-text col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                 <h3 style={{ fontSize: "25px", lineHeight: "34px" }}>
-                  Craft a website design that smoothens user journey
+                  Custom iOS App Development Services Tailored to Your
+                  Business Needs
                 </h3>
                 <p>
-                  <b>
-                    Dexterous Technology offers an impressive UI/UX design
-                    services to deliver intuitive designs and outstanding user
-                    experience.
-                  </b>
+                  Our exceptional custom iOS App Development services are
+                  designed to assist organizations in discovering new prospects.
                 </p>
                 <p style={{ textAlign: "justify" }}>
-                  A premium UI/UX design firm, Dexterous Technologies aims to
-                  produce website designs with unconventional user experiences.
-                  We are one of the top web development firms that creates
-                  interesting goods to meet client demands fast. Our talented
-                  group of UI/UX designers prioritizes user needs and provides
-                  enhanced usability and optimal UX design techniques. We put
-                  into practice design guidelines that strengthen brand recall
-                  and business identification.{" "}
+                  Clients can obtain premium iOS App Development services
+                  from Dexterous Technologies. With our iOS app development services, we thrive in
+                  delivering excellent user experiences.{" "}
+                </p>
+                <p style={{ textAlign: "justify" }}>
+                  {" "}
+                  Dexterous Technologies, one of the best iOS App Development
+                  firms, offers innovative, dependable, and secure mobile
+                  solutions. Get iOS App Development services from
+                  professionals who understand the newest trends and strategies
+                  in the industry. Our licensed app developers.{" "}
+                </p>
+              </div>
+              <div className="container">
+                <p style={{ textAlign: "justify" }}>
+                  {" "}
+                  Have created a wide range of scalable and secure mobile apps
+                  for our specialized and international clientele. With over 13+
+                  years of extensive expertise, we are the top mobile app
+                  development business, and our in-house iOS app developers are
+                  skilled at producing top-notch mobile applications.
+                </p>
+                <p className="mt-lg-4" style={{ textAlign: "justify" }}>
+                  Our iOS app  developers in India and the USA work with us
+                  to create robust, scalable iOS app solutions. Our extensive
+                  experience in creating RIA applications complements our
+                  proficiency in JavaScript development. We also offer SaaS
+                  development and assist you in creating intuitive, clever
+                  solutions. Our highly skilled designers produce user-friendly
+                  user interfaces (UIs) for flawless cross-platform user
+                  experiences.
                 </p>
               </div>
             </div>
@@ -62,20 +82,17 @@ const UIUXDesign = () => {
             <div className="heading text-center mx-auto">
               <h3 className="head text-white">
                 {" "}
-                Avail intuitive UI/UX designs and transform your digital user
-                experience
+                Our iOS App Development Services
               </h3>
             </div>
             <div className="row pt-5 mt-3">
               <div className="col-lg-5 features-with-17-left_sur">
-                <h4 className="lft-head">User Experience Design</h4>
+                <h4 className="lft-head">iOS App Development Company</h4>
                 <p style={{ textAlign: "justify" }}>
-                  With the assistance of our web design professionals, who can
-                  examine and fill in the interface gaps on your website, you
-                  can bring your product idea to life. With our thorough site
-                  research approach, you can effectively achieve your business
-                  objectives, and your site will be user-friendly thanks to
-                  incorporated microinteractions.
+                  We are a full-stack iOS app development business, and the apps
+                  we've created have achieved great success. Our team of highly
+                  qualified and experienced iOS app developers offers custom
+                  iPhone application development services.
                 </p>
                 <div className="stats-1">
                   <div className="stats-1-left">
@@ -99,14 +116,15 @@ const UIUXDesign = () => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/generalwebsites">Responsive Design</Link>
+                      <Link href="/mobileapps" style={{ fontSize: "18px" }}>
+                      iOS app Development Company
+                      </Link>
                     </h6>
                     <p style={{ textAlign: "justify" }}>
-                      Remarkable responsive web designs that look good on all
-                      screen sizes are made by our UX design specialists.
-                      Because of our expertise in creating unique websites with
-                      user-centric design and content, we can guarantee not only
-                      an excellent user experience but also faster usability.
+                      We serve both small and medium-sized enterprises (SMEs)
+                      and well-established firms with our iOS app development
+                      services. Our company's iOS app developers provide
+                      dependable and efficient custom iOS app.
                     </p>
                   </div>
                 </div>
@@ -116,16 +134,16 @@ const UIUXDesign = () => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/generalwebsites">
-                        Website Redesign services
+                      <Link href="/mobileapps">
+                        Cross-platform App Development
                       </Link>
                     </h6>
                     <p style={{ textAlign: "justify" }}>
-                      With the help of our UI/UX designers, revamp your website
-                      and turn your demands into measurable outcomes that result
-                      in increased productivity and speedier turnaround times.
-                      Our extensive usage of wireframes guarantees that the
-                      website appropriately satisfies the needs of the business.
+                      We have a great deal of expertise developing web
+                      experiences and cross-platform mobile applications for
+                      various industries. We employ approaches for responsive
+                      and adaptive app design together with technologies like
+                      HTML5, CSS3, and JavaScript.
                     </p>
                   </div>
                 </div>
@@ -139,8 +157,25 @@ const UIUXDesign = () => {
         <div className="container py-lg-5 pt-4">
           <div className="heading text-center mx-auto">
             <h3 className="head">Our Web Development Tech-stack</h3>
+            {/* <p className="my-3 head">
+      {" "}
+      Dexterous is the best web and mobile app development company, we are dedicated to engineering best-in-class IT solutions that improve your business growth. Our development team is expert in handling projects of diverse complexities, so you can stay assured of getting secured, scalable, and high-performance solutions.
+    </p> */}
           </div>
           <div className="row pt-5 mt-3">
+            <div className="col-lg-2 col-md-6 mt-lg-0 mt-3 pt-lg-0 pt-3">
+              <div className="card text-center">
+                <div className="icon-holder">
+                  <span
+                    className="fa fa-money service-icon"
+                    aria-hidden="true"
+                  />
+                </div>
+                <h4 style={{ fontSize: "18px" }} className="mission">
+                  React Native
+                </h4>
+              </div>
+            </div>
             <div className="col-lg-2 col-md-6">
               <div className="card text-center">
                 <div className="icon-holder">
@@ -163,19 +198,7 @@ const UIUXDesign = () => {
                 <h4 className="mission">NodeJs</h4>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 mt-lg-0 mt-3 pt-lg-0 pt-3">
-              <div className="card text-center">
-                <div className="icon-holder">
-                  <span
-                    className="fa fa-money service-icon"
-                    aria-hidden="true"
-                  />
-                </div>
-                <h4 style={{ fontSize: "18px" }} className="mission">
-                  React Native
-                </h4>
-              </div>
-            </div>
+
             <div className="col-lg-2 col-md-6 mt-lg-0 mt-3 pt-lg-0 pt-3">
               <div className="card text-center">
                 <div className="icon-holder">
@@ -223,8 +246,8 @@ const UIUXDesign = () => {
               <p className="my-3 head">
                 {" "}
                 <b style={{ color: "white" }}>
-                  Leverage best UI/UX design services from the top website
-                  builders
+                  Leverage unparalleled experience with our Mobile Development
+                  Services
                 </b>
               </p>
             </div>
@@ -237,16 +260,16 @@ const UIUXDesign = () => {
                 <div className="icon-info">
                   <h5>
                     <a href="#" style={{ color: "white" }}>
-                      Minimal cost of operations
+                      Confidentiality & transparency
                     </a>
                   </h5>
                   <p style={{ textAlign: "justify", color: "white" }}>
-                    When it comes to hiring top 1% talent in the Indian IT
-                    sector, Dexterous Technologies can provide access to
-                    developers at a 60% less price than in other nations like
-                    the US, UK, Poland, the Philippines, or Ukraine. This
-                    enables our clients to use the top software developers while
-                    staying within their budgets.
+                    Being one of the leading providers of iOS App Development
+                    services, Dexterous Technology makes sure that all of its
+                    developers and procedures adhere to confidentiality
+                    guidelines. To promote openness and truthfulness in
+                    partnerships, we work to establish a reliable working
+                    relationship.
                   </p>
                 </div>
               </div>
@@ -258,14 +281,15 @@ const UIUXDesign = () => {
                 <div className="icon-info">
                   <h5>
                     <a href="#" style={{ color: "white" }}>
-                      Transparency
+                      Quality Solutions
                     </a>
                   </h5>
                   <p style={{ textAlign: "justify", color: "white" }}>
-                    By encouraging trust and cooperation, Dexterous Technology
-                    offers total transparency in their client interactions and
-                    communications. This strategy aids in overcoming obstacles
-                    and guarantees the project's success.
+                    At Dexterous Technologies, we put in a lot of effort to make
+                    sure that the finished mobile app solution surpasses the
+                    customer's expectations. We do this by regularly upgrading
+                    the product and performing several quality checks, which
+                    ensures that the client is completely satisfied.
                   </p>
                 </div>
               </div>
@@ -277,14 +301,14 @@ const UIUXDesign = () => {
                 <div className="icon-info">
                   <h5>
                     <a href="#" style={{ color: "white" }}>
-                      Guaranteed Quality
+                      Source code ownership
                     </a>
                   </h5>
                   <p style={{ textAlign: "justify", color: "white" }}>
-                    With accuracy and meticulous quality checks, our team of web
-                    designers and developers strives to offer the desired output
-                    and achieves 100% client satisfaction. To get the intended
-                    results, ongoing maintenance and upgrades are carried out.
+                    We guarantee the ownership and control of intellectual
+                    property and source code by our clients. We respect our
+                    clients' independence and provide them the tools they need
+                    to decide what's best for their company.
                   </p>
                 </div>
               </div>
@@ -296,16 +320,14 @@ const UIUXDesign = () => {
                 <div className="icon-info">
                   <h5>
                     <a href="#" style={{ color: "white" }}>
-                      Industry Specific Talent
+                      Reduced Operational Cost
                     </a>
                   </h5>
                   <p style={{ textAlign: "justify", color: "white" }}>
-                    The 500 specialists that make up the Dexterous Technology
-                    team have years of experience in the field and were selected
-                    after a rigorous screening procedure. Customers can select
-                    developers with particular expertise, guaranteeing that
-                    their projects will have a committed team with the tools
-                    they need.
+                    At a lesser cost than mobile application developers in other
+                    nations, Dexterous Technologies hires the top 1% of talent
+                    in the Indian IT sector. This enables customers to use the
+                    top mobile app developers while keeping costs down.
                   </p>
                 </div>
               </div>
@@ -319,4 +341,4 @@ const UIUXDesign = () => {
   );
 };
 
-export default UIUXDesign;
+export default iOSAppDevelopment;

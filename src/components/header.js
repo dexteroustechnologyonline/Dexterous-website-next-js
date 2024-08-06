@@ -4,6 +4,8 @@ import { FaCaretDown, FaBars, FaTimes } from "react-icons/fa";
 import { RiArrowUpSFill } from "react-icons/ri";
 import "../../public/styles/global.css";
 import Link from "next/link";
+import { CiGlobe, CiMobile2 } from "react-icons/ci";
+import { IoCartOutline } from "react-icons/io5";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -105,17 +107,20 @@ const Header = () => {
                   )}
                 </Link>
                 {showDropdown && (
-                  <ul className="mainboxcontainer">
+                  <ul className="mainboxcontainer forFive">
                     <li className="list">
                       <Link
                         className="subnavigation"
                         href="/WebDevelopment"
-                        onClick={linkAction}
+                        onClick={(e) => {
+                          linkAction(e);
+                        }}
                         style={{ fontSize: "15px" }}
                       >
-                        <i className="bi bi-globe"></i> Web Development
+                        <CiGlobe /> Web Development
                       </Link>
                     </li>
+
                     <li className="list borderbottom">
                       <Link
                         className="subnavigation"
@@ -123,7 +128,27 @@ const Header = () => {
                         onClick={linkAction}
                         style={{ fontSize: "15px" }}
                       >
-                        <i className="bi bi-phone"></i> App Development
+                        <CiMobile2 /> App Development
+                      </Link>
+                    </li>
+                    <li className="list borderbottom">
+                      <Link
+                        className="subnavigation"
+                        href="/Web-Design"
+                        onClick={linkAction}
+                        style={{ fontSize: "15px" }}
+                      >
+                        <CiGlobe /> Web Design
+                      </Link>
+                    </li>
+                    <li className="list borderbottom">
+                      <Link
+                        className="subnavigation"
+                        href="/ios-app-development"
+                        onClick={linkAction}
+                        style={{ fontSize: "15px" }}
+                      >
+                        <CiMobile2 /> iOS App Development
                       </Link>
                     </li>
                     <li className="list borderbottom">
@@ -133,7 +158,7 @@ const Header = () => {
                         onClick={linkAction}
                         style={{ fontSize: "15px" }}
                       >
-                        <i className="bi bi-globe"></i> UI-UX-Design
+                        <CiGlobe /> UI-UX-Design
                       </Link>
                     </li>
                   </ul>
@@ -157,10 +182,11 @@ const Header = () => {
                     <li className="list">
                       <Link
                         className="subnavigation"
-                        href="/ecommerce"
+                        href="/Grocery-app-developement"
                         onClick={linkAction}
+                      
                       >
-                        <i className="bi bi-cart"></i> E-commerce
+                        <IoCartOutline /> E-commerce
                       </Link>
                     </li>
                     <li className="list">
@@ -168,17 +194,19 @@ const Header = () => {
                         className="subnavigation"
                         href="/generalwebsites"
                         onClick={linkAction}
+                       
                       >
-                        <i className="bi bi-globe"></i> General Websites
+                        <CiGlobe /> General Websites
                       </Link>
                     </li>
                     <li className="list borderbottom">
                       <Link
                         className="subnavigation"
-                        href="/mobileapps"
+                        href="/android-app-development"
                         onClick={linkAction}
+                       
                       >
-                        <i className="bi bi-phone"></i> Mobile Apps
+                        <CiMobile2 /> Mobile Apps
                       </Link>
                     </li>
                   </ul>
@@ -199,7 +227,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <div className="tp-header-contact-inner d-flex align-items-center ml-auto nav-link">
+            <div className="tp-header-contact-inner d-flex align-items-center ml-auto nav-link mobile">
               <div className="mobilecall">
                 <img
                   src="../../styles/assets/images/calling.png"
