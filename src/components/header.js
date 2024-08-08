@@ -182,7 +182,7 @@ const Header = () => {
                     <li className="list">
                       <Link
                         className="subnavigation"
-                        href="/Gracery-app-developement"
+                        href="/Grocery-app-developement"
                         onClick={linkAction}
                       
                       >
