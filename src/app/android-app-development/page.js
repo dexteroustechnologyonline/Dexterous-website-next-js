@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Dexterous Technology is a premier Android app development company in Hyderabad, providing cutting-edge solutions for businesses. Reach out to us for expert services.",
   keywords:
-    "Android App Development in Hyderabad, Android App Development Company in Hyderabad.",
+    "Android App Development in Hyderabad, Android App Development Company in Hyderabad",
 };
 const MobileApps = () => {
   return (

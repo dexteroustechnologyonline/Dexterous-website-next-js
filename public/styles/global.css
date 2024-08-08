@@ -1,82 +1,14 @@
 /* @import "~swiper/swiper-bundle.min.css"; */
-/* Responsive Header Styles */
-
-@media (max-width: 768px) {
-  .navbar-brand.logo {
-    height: 35px;
-  }
-
-  .nav-link {
-    font-size: 14px;
-  }
-  .navbar-collapse {
-    margin: 0 !important;
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    border: 1px solid #ddd;
-
-    border-radius: 4px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-
-  .dropdown-item {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-
-  .header-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-  }
-
-  .mobile-call img {
-    height: 35px;
-    width: 35px;
-  }
-
-  .call-info {
-    text-align: center;
-  }
-
-  .phone-numbers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .separator {
-    margin: 0 5px;
-  }
-  .mainboxcontainer .subnavigation {
-    color: black !important;
-    list-style: none !important;
-  }
-  .mainboxcontainer {
-    background-color: #fff;
-    transform: translateX(-30%);
-  }
-}
 
 .mainboxcontainer {
   display: none;
   width: 250px;
   height: 165px;
-  /* transform: translatex(-30px); */
   background-color: whitesmoke;
   /* position: relative; */
   border-radius: 2px;
 }
-.forFive {
-  position: absolute;
-  z-index: 999;
+.forFive{
   height: 274px;
 }
 .mainboxcontainer .subnavigation {
@@ -98,7 +30,7 @@
 }
 .subnavigation {
   font-size: 16px;
-  color: black;
+  color: "black";
   list-style: none;
   font-weight: 500;
   text-transform: capitalize;
@@ -110,7 +42,6 @@
   list-style: none !important;
   padding: 15px 15px 15px 20px;
   border-bottom: 1px solid #cccccc;
-  color: black;
 }
 .list:hover {
   background-color: #e6e6e6;
@@ -151,8 +82,7 @@
   background-color: #ffefec54;
   text-align: center;
 }
-.swiper-button-next:after,
-.swiper-button-prev:after {
+.swiper-button-next:after,.swiper-button-prev:after{
   top: 30px;
 }
 
@@ -317,8 +247,8 @@
   }
   .mainboxcontainer {
     display: none;
-    width: 135px !important;
-    height: 105px !important;
+    width: auto !important;
+    height: auto;
     background-color: transparent !important;
   }
   .profiledropdown:hover .mainboxcontainer {
@@ -394,25 +324,25 @@
     display: none;
   }
 }
-@media screen and (min-width: 1000px) and (max-width: 1020px) {
-  .navbar-collapse {
+@media screen and (min-width:1000px) and (max-width:1020px) {
+  .navbar-collapse{
     margin-left: 50px !important;
   }
-  .w3l-header-nav .navbar-nav .nav-link {
+  .w3l-header-nav .navbar-nav .nav-link{
     padding: 0 0px !important;
   }
 }
-@media screen and (min-width: 280px) and (max-width: 480px) {
-  .mobile {
-    display: flex;
-    flex-direction: column;
-  }
+@media screen and (min-width:280px) and (max-width:480px) {
+.mobile{
+  display: flex;
+  flex-direction: column;
+}  
 }
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
-  .navbar-collapse {
+@media screen and (min-width:1000px) and (max-width:1400px) {
+  .navbar-collapse{
     margin-left: 50px !important;
   }
-  .w3l-header-nav .navbar-nav .nav-link {
+  .w3l-header-nav .navbar-nav .nav-link{
     padding: 0 10px !important;
   }
 }

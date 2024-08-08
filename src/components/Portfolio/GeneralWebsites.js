@@ -9,6 +9,15 @@ import BlogCard from "../../components/Ecommerce/BlogCard";
 // import { ImportantDevices } from "@material-ui/icons";
 // import MetaData from "../../layout/MetaData";
 
+export const metadata = {
+  title:
+    "Real Estate App Developement in Hyderabad | Real Estate App Developement Company in Hyderabad - Dexterous Technology",
+  description:
+    "Dexterous Technology offers expert real estate app developement services in Hyderabad, catering to the specific needs of real estate businesses looking to go mobile.",
+  keywords:
+    "Real Estate App Developement in Hyderabad, Real Estate App Developement Company in Hyderabad",
+};
+
 const GeneralWebsites = () => {
   const [value, setValue] = React.useState(0);
 

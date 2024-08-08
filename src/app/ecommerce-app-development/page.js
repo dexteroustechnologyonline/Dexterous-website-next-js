@@ -5,11 +5,11 @@ import Link from "next/link";
 
 export const metadata = {
   title:
-    "Android App Development in Hyderabad | Android App Development Company in Hyderabad- Dexterous Technology",
+    "E-Commerce Web Development in Hyderabad | Ecommerce Website Design in Hyderabad | E-Commerce WebDesign & Development Company Hyderabad - Dexterous Technology",
   description:
-    "Dexterous Technology is a premier Android app development company in Hyderabad, providing cutting-edge solutions for businesses. Reach out to us for expert services.",
+    "Dexterous Technology offers top-notch E-Commerce Web Design and Development services in Hyderabad to help your business thrive in the digital world.",
   keywords:
-    "Android App Development in Hyderabad, Android App Development Company in Hyderabad",
+    "E-Commerce Web Development in Hyderabad, Ecommerce Website Design in Hyderabad, E-Commerce WebDesign & Development Company Hyderabad",
 };
 
 const MobileAppDevelopment = (props) => {
