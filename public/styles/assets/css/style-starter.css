@@ -7298,7 +7298,7 @@ input[type="button"].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  /* margin-left: 120px; */
+  margin-left: 120px;
 }
 
 .navbar-toggler {

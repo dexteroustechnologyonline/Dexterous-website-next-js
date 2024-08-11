@@ -247,8 +247,8 @@
   }
   .mainboxcontainer {
     display: none;
-    width: auto !important;
-    height: auto;
+    width: 135px !important;
+    height: 105px !important;
     background-color: transparent !important;
   }
   .profiledropdown:hover .mainboxcontainer {

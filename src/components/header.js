@@ -124,7 +124,7 @@ const Header = () => {
                     <li className="list borderbottom">
                       <Link
                         className="subnavigation"
-                        href="/ecommerce-app-development"
+                        href="/ecommerce-app-developement"
                         onClick={linkAction}
                         style={{ fontSize: "15px" }}
                       >
@@ -182,7 +182,7 @@ const Header = () => {
                     <li className="list">
                       <Link
                         className="subnavigation"
-                        href="/Grocery-app-developement"
+                        href="/grocery-app-developement"
                         onClick={linkAction}
                       
                       >
