@@ -54,7 +54,7 @@ const ServicesTwo = () => {
                 </div>
                 <div className="features-with-17-left2">
                   <h6>
-                    <Link href="/MobileAppDevelopment">Mobile App</Link>
+                    <Link href="/ecommerce-app-developement">Mobile App</Link>
                   </h6>
                   <p>
                     Using solid expertise in mobile apps development, our team
@@ -84,7 +84,7 @@ const ServicesTwo = () => {
                 </div>
                 <div className="features-with-17-left2">
                   <h6>
-                    <Link href="/ecommerce">eCommerce Development</Link>
+                    <Link href="/grocery-app-developement">eCommerce Development</Link>
                   </h6>
                   <p>
                     Dexterous is a leading eCommerce development company that
@@ -99,7 +99,7 @@ const ServicesTwo = () => {
                 </div>
                 <div className="features-with-17-left2">
                   <h6>
-                    <Link href="/DigitalMarketing">Digital Marketing</Link>
+                    <Link href="/digital-marketing">Digital Marketing</Link>
                   </h6>
                   <p>
                     We develop the best digital marketing strategy for your

@@ -11,7 +11,7 @@ const ServicesOne = () => {
               <div className="ser-bg1">
                 <div className="p-md-5 p-3">
                   <h4>
-                    <Link href="/generalwebsites">Web & App Development</Link>
+                    <Link href="/grocery-app-developement">Web & App Development</Link>
                   </h4>
                   <p>
                     We provide the best web & mobile app development services
@@ -24,7 +24,7 @@ const ServicesOne = () => {
               <div className="ser-bg2">
                 <div className="p-md-5 p-3">
                   <h4>
-                    <Link href="/ecommerce">eCommerce Development</Link>
+                    <Link href="/ecommerce-app-developement">eCommerce Development</Link>
                   </h4>
                   <p>
                     Our dedicated team of eCommerce experts supports businesses
@@ -37,7 +37,7 @@ const ServicesOne = () => {
               <div className="ser-bg3">
                 <div className="p-md-5 p-3">
                   <h4>
-                    <Link href="/TestingQaServices">Testing & QA Services</Link>
+                    <Link href="/testing-qa-services">Testing & QA Services</Link>
                   </h4>
                   <p>
                     We focus on comprehensive testing and QA services to execute
@@ -50,7 +50,7 @@ const ServicesOne = () => {
               <div className="ser-bg3">
                 <div className="p-md-5 p-3">
                   <h4>
-                    <Link href="/DigitalMarketing">Digital Marketing</Link>
+                    <Link href="/digital-marketing">Digital Marketing</Link>
                   </h4>
                   <p>
                     We develop the best digital marketing strategy for your

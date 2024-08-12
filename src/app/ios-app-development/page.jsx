@@ -116,7 +116,7 @@ const iOSAppDevelopment = (props) => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/mobileapps" style={{ fontSize: "18px" }}>
+                      <Link href="/android-app-development" style={{ fontSize: "18px" }}>
                       iOS app Development Company
                       </Link>
                     </h6>
@@ -134,7 +134,7 @@ const iOSAppDevelopment = (props) => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/mobileapps">
+                      <Link href="/android-app-development">
                         Cross-platform App Development
                       </Link>
                     </h6>

@@ -148,7 +148,7 @@ const Footer = () => {
             </div>
             <div className="d-grid grid-col-2 bottom-copies">
               <p className="copy-footer-29">
-                © 2023 Dexterous Technology | All rights reserved
+                © 2024 Dexterous Technology | All rights reserved
               </p>
               <ul className="list-btm-29">
                 <li>

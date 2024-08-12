@@ -99,7 +99,7 @@ const UIUXDesign = () => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/generalwebsites">Responsive Design</Link>
+                      <Link href="/real-estate-app-developement">Responsive Design</Link>
                     </h6>
                     <p style={{ textAlign: "justify" }}>
                       Remarkable responsive web designs that look good on all
@@ -116,7 +116,7 @@ const UIUXDesign = () => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/generalwebsites">
+                      <Link href="/real-estate-app-developement">
                         Website Redesign services
                       </Link>
                     </h6>

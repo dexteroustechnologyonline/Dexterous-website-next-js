@@ -5,21 +5,23 @@ const WhatsappIcon = () => {
 
   return (
     <>
+     
       <div className="whatsapp_float d-grid">
-        <a href={`tel:${phoneNumber}`} target="_blank">
-          <img
-            src="/styles/assets/images/calling.png"
-            // width="50px"
-            className="whatsapp_float_btn"
-            style={{
-              height: "60px",
-              width: "60px",
-              backgroundColor: "#2e5deb",
-              padding: "15px",
-              color: "#fff",
-            }}
-          />
-        </a>
+      <a href={`tel:${phoneNumber}`} target="_blank">
+        <img
+          src="/styles/assets/images/calling.png"
+          className="whatsapp_float_btn"
+          style={{
+            // marginTop:"20px",
+            // marginLeft:"1200px",
+            height: "60px",
+            width: "60px",
+            backgroundColor: "#2e5deb",
+            padding: "15px",
+            color: "#fff",
+          }}
+        />
+      </a>
         <a href="https://wa.me/919908516950" target="_blank" className="mt-2">
           <img
             src="/styles/assets/images/WhatsappLogo.png"

@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
 
         <Header />
         {children}
-        <Talk />
+        {/* <Talk /> */}
         <Footer />
       </body>
     </html>
