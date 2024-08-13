@@ -46,18 +46,19 @@ const HomeSliderApp = () => {
         },
       }}
     >
-      <SwiperSlide>
-        <div className="card" style={{ width: "22rem" }}>
-          <img
-            // src="/styles/assets/images/design1.jpg"
-            src="/styles/assets/images/project1.webp"
-            className="card-img-top"
-            alt="..."
-          />
-        </div>
-      </SwiperSlide>
 
-      <SwiperSlide>
+   
+        <SwiperSlide>
+          <div className="card" style={{ width: "22rem" }}>
+            <img
+              // src="/styles/assets/images/design1.jpg"
+              src="/styles/assets/images/project1.webp"
+              className="card-img-top"
+              alt="..."
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
         <div className="card" style={{ width: "22rem" }}>
           <img
             // src="/styles/assets/images/graphics.png"
@@ -134,6 +135,7 @@ const HomeSliderApp = () => {
           />
         </div>
       </SwiperSlide>
+
     </Swiper>
   );
 };

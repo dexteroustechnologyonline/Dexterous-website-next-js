@@ -91,7 +91,7 @@ const WebDevelopment = (props) => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/ecommerce">E-Commerce Web Development</Link>
+                      <Link href="/ecommerce-app-developement">E-Commerce Web Development</Link>
                     </h6>
                     <p style={{ textAlign: "justify" }}>
                       Using our e-commerce website building procedures, you may
@@ -108,7 +108,7 @@ const WebDevelopment = (props) => {
                   </div>
                   <div className="features-with-17-left2">
                     <h6>
-                      <Link href="/generalwebsites">
+                      <Link href="/real-estate-app-developement">
                         Full Stack development services
                       </Link>
                     </h6>
