@@ -20,6 +20,7 @@ const page = () => {
       <MainSlider />
       <HomeAbout />
       {/* <Services /> */}
+      
       <OpenBlog />
       <Indexe />
       <HomeSliderPortfolioApp />
