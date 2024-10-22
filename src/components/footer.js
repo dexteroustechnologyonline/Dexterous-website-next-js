@@ -173,7 +173,7 @@ const Footer = () => {
 
 
 
-      <section className="w3l-footer-29-main">
+      <section className="w3l-footer-29-main" style={{overflow:"hidden"}}>
         <div className="footer-29">
           <div className="heading text-center mx-auto">
             <h3 className="head" style={{color:"white"}}>Quick Links</h3>
@@ -244,11 +244,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* move top */}
         <button onclick="topFunction()" id="movetop" title="Go to top">
           <span className="fa fa-angle-up" />
         </button>
-        {/* /move top */}
       </section>
     </>
   );

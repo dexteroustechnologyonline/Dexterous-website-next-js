@@ -5,7 +5,6 @@ import Breadcrum from "@/components/breadCrum";
 
 // import MetaData from "../../layout/MetaData";
 
-
 export const metadata = {
   title:
     "Android App Development in Hyderabad | Android App Development Company in Hyderabad- Dexterous Technology",
