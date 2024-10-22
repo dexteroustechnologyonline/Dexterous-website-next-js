@@ -124,25 +124,108 @@ const Footer = () => {
               </div>
               <div className="footer-list-29 footer-4">
                 <ul>
-                  <h6 className="footer-title-29">Quick Links</h6>
+                  <h6 className="footer-title-29">Links</h6>
                   <li>
-                    <Link href="/">Home</Link>
+                    {/* <Link href="/best-mobile-app-development-hyderabad">Best Mobile App Development Hyderabad</Link> */}
+                    <Link href="/services">Home</Link>
+
                   </li>
+
                   <li>
-                    <Link href="/about">About</Link>
-                  </li>
-                  <li>
+                    {/* <Link href="/web-design-company-in-hyderabad">Web Design Company in Hyderabad</Link> */}
                     <Link href="/services">Services</Link>
                   </li>
                   <li>
+                    {/* <Link href="/about">Best Mobile App Development Company Hyderabad</Link> */}
+                    <Link href="/about">About</Link>
+                  </li>
+                  <li>
+                    {/* <Link href="/blog"> Web Designing Company in Hyderabad</Link> */}
                     <Link href="/blog"> Blog</Link>
                   </li>
                   <li>
-                    <Link href=""> Site Map</Link>
-                  </li>
-                  <li>
+                    {/* <Link href="/contact">Mobile App Development Company in Hyderabad</Link> */}
                     <Link href="/contact">Contact</Link>
                   </li>
+                </ul>
+              </div>
+            </div>
+            {/* <div className="d-grid grid-col-2 bottom-copies">
+              <p className="copy-footer-29">
+                © 2024 Dexterous Technology | All rights reserved
+              </p>
+              <ul className="list-btm-29">
+                <li>
+                  <Link href="">Privacy policy</Link>
+                </li>
+                <li>
+                  <Link href="">Terms of service</Link>
+                </li>
+              </ul>
+            </div> */}
+          </div>
+        </div>
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+          <span className="fa fa-angle-up" />
+        </button>
+      </section>
+
+
+
+
+      <section className="w3l-footer-29-main">
+        <div className="footer-29">
+          <div className="heading text-center mx-auto">
+            <h3 className="head" style={{color:"white"}}>Quick Links</h3>
+          </div>
+          <hr className="container" style={{borderTop:"1px solid white"}}/>
+          <div className="container mt-lg-5">
+            <div className="d-grid grid-col-4 footer-top-29">
+              <div className="footer-list-29 footer-1">
+                <ul>
+                  <li>
+                    <Link href="web-design-company-in-banjara-hills">Web Design Company In Banjara Hills</Link>
+                  </li>
+                  <li>
+                    <Link href="web-designing-company-in-banjara-hills">Web Designing Company in Banjara Hills </Link>
+                  </li>
+                  <li>
+                    <Link href="best-web-designing-company-in-banjara-hills">Best Web Designing Company in Banjara Hills </Link>
+                  </li>
+                
+                </ul>
+              </div>
+              
+              <div className="footer-list-29 footer-3">
+               
+                <ul>
+                  <li>
+                    <Link href="best-mobile-app-development-in-banjara-hills">Best Mobile App Development In Banjara Hills</Link>
+                  </li>
+                  <li>
+                    <Link href="mobile-app-development-company-in-banjara-hills"> Mobile App Development Company in Banjara Hills </Link>
+                  </li>
+                  <li>
+                    <Link href="android-app-development-in-banjara-hills">Android App Development in Banjara Hills </Link>
+                  </li>
+                 
+                 
+                </ul>
+              </div>
+              <div className="footer-list-29 footer-4">
+                <ul>
+                 
+                  <li>
+                    <Link href="/e-commerce-web-development-in-banjara-hills">E-Commerce Web Development in Banjara Hills </Link>
+                  </li>
+                  <li>
+                    <Link href="/e-commerce-website-design-in-banjara-hills">E-commerce Website Design in Banjara Hills </Link>
+                  </li>
+                  <li>
+                    <Link href="/e-commerce-web-design-development-company-in-banjara-hills">E-Commerce Web Design & Development Company Banjara Hills</Link>
+                  </li>
+
+                 
                 </ul>
               </div>
             </div>

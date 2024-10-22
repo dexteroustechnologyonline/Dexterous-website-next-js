@@ -85,7 +85,7 @@ const Team = () => {
               linkedin="#"
               google="#"
             />
-            <TeamCard
+            {/* <TeamCard
               width="400px"
               image="styles/assets/images/team/Darshanam Mahesh.webp"
               name="Darshanam Mahesh"
@@ -94,7 +94,7 @@ const Team = () => {
               twitter="#"
               linkedin="#"
               google="#"
-            />
+            /> */}
             <TeamCard
               width="400px"
               image="styles/assets/images/team/Musku Nishitha.webp"
