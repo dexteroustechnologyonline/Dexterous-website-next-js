@@ -13,7 +13,7 @@ import Footer from "@/components/footer";
 import Talk from "@/components/Tawk/Talk";
 export const metadata = {
   title:
-    "Best Mobile App Development Hyderabad | Best Mobile App Development Company Hyderabad |  Mobile App Development Company in Hyderabad - Dexterous Technologys",
+    "Best Mobile App Development Hyderabad | Best Mobile App Development Company Hyderabad |  Mobile App Development Company in Hyderabad - Dexterous Technology",
   description:
     "Dexterous Technology is the Best mobile app development company, web designing company, serving customers in cms, best E-commerce mobile App development, Android App Development, IOS App Development,  website design, Grocery mobile App.",
   keywords:
